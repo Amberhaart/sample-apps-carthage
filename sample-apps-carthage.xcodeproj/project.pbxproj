@@ -14,12 +14,10 @@
 		139CBDA31D2E9DC600E34779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 139CBDA11D2E9DC600E34779 /* LaunchScreen.storyboard */; };
 		139CBDAE1D2E9DC600E34779 /* sample_apps_carthageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CBDAD1D2E9DC600E34779 /* sample_apps_carthageTests.swift */; };
 		139CBDB91D2E9DC600E34779 /* sample_apps_carthageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139CBDB81D2E9DC600E34779 /* sample_apps_carthageUITests.swift */; };
-		139CBDC91D2EA1A400E34779 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139CBDC61D2EA1A400E34779 /* Mantle.framework */; };
-		139CBDCA1D2EA1A400E34779 /* Mantle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 139CBDC61D2EA1A400E34779 /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		139CBDCB1D2EA1A400E34779 /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139CBDC71D2EA1A400E34779 /* ReactiveCocoa.framework */; };
-		139CBDCC1D2EA1A400E34779 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 139CBDC71D2EA1A400E34779 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		139CBDCD1D2EA1A400E34779 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139CBDC81D2EA1A400E34779 /* Result.framework */; };
-		139CBDCE1D2EA1A400E34779 /* Result.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 139CBDC81D2EA1A400E34779 /* Result.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		13BFAA561ECF0A100003B8DE /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BFAA521ECF0A100003B8DE /* Mantle.framework */; };
+		13BFAA571ECF0A100003B8DE /* ReactiveCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BFAA531ECF0A100003B8DE /* ReactiveCocoa.framework */; };
+		13BFAA581ECF0A100003B8DE /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BFAA541ECF0A100003B8DE /* ReactiveSwift.framework */; };
+		13BFAA591ECF0A100003B8DE /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BFAA551ECF0A100003B8DE /* Result.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,9 +44,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				139CBDCE1D2EA1A400E34779 /* Result.framework in Embed Frameworks */,
-				139CBDCA1D2EA1A400E34779 /* Mantle.framework in Embed Frameworks */,
-				139CBDCC1D2EA1A400E34779 /* ReactiveCocoa.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,9 +64,10 @@
 		139CBDB41D2E9DC600E34779 /* sample-apps-carthageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sample-apps-carthageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		139CBDB81D2E9DC600E34779 /* sample_apps_carthageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sample_apps_carthageUITests.swift; sourceTree = "<group>"; };
 		139CBDBA1D2E9DC600E34779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		139CBDC61D2EA1A400E34779 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/iOS/Mantle.framework; sourceTree = "<group>"; };
-		139CBDC71D2EA1A400E34779 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
-		139CBDC81D2EA1A400E34779 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		13BFAA521ECF0A100003B8DE /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = Carthage/Build/iOS/Mantle.framework; sourceTree = "<group>"; };
+		13BFAA531ECF0A100003B8DE /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = Carthage/Build/iOS/ReactiveCocoa.framework; sourceTree = "<group>"; };
+		13BFAA541ECF0A100003B8DE /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		13BFAA551ECF0A100003B8DE /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				139CBDCD1D2EA1A400E34779 /* Result.framework in Frameworks */,
-				139CBDC91D2EA1A400E34779 /* Mantle.framework in Frameworks */,
-				139CBDCB1D2EA1A400E34779 /* ReactiveCocoa.framework in Frameworks */,
+				13BFAA561ECF0A100003B8DE /* Mantle.framework in Frameworks */,
+				13BFAA571ECF0A100003B8DE /* ReactiveCocoa.framework in Frameworks */,
+				13BFAA581ECF0A100003B8DE /* ReactiveSwift.framework in Frameworks */,
+				13BFAA591ECF0A100003B8DE /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,13 +102,11 @@
 		139CBD8C1D2E9DC600E34779 = {
 			isa = PBXGroup;
 			children = (
-				139CBDC61D2EA1A400E34779 /* Mantle.framework */,
-				139CBDC71D2EA1A400E34779 /* ReactiveCocoa.framework */,
-				139CBDC81D2EA1A400E34779 /* Result.framework */,
 				139CBD971D2E9DC600E34779 /* sample-apps-carthage */,
 				139CBDAC1D2E9DC600E34779 /* sample-apps-carthageTests */,
 				139CBDB71D2E9DC600E34779 /* sample-apps-carthageUITests */,
 				139CBD961D2E9DC600E34779 /* Products */,
+				13BFAA511ECF0A100003B8DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +149,17 @@
 				139CBDBA1D2E9DC600E34779 /* Info.plist */,
 			);
 			path = "sample-apps-carthageUITests";
+			sourceTree = "<group>";
+		};
+		13BFAA511ECF0A100003B8DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13BFAA521ECF0A100003B8DE /* Mantle.framework */,
+				13BFAA531ECF0A100003B8DE /* ReactiveCocoa.framework */,
+				13BFAA541ECF0A100003B8DE /* ReactiveSwift.framework */,
+				13BFAA551ECF0A100003B8DE /* Result.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,18 +227,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = bitrise;
 				TargetAttributes = {
 					139CBD941D2E9DC600E34779 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 					139CBDA81D2E9DC600E34779 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 139CBD941D2E9DC600E34779;
 					};
 					139CBDB31D2E9DC600E34779 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 						TestTargetID = 139CBD941D2E9DC600E34779;
 					};
 				};
@@ -294,6 +303,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/Mantle.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/ReactiveCocoa.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReactiveSwift.framework",
 			);
 			outputPaths = (
 			);
@@ -378,8 +388,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -423,8 +435,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -443,6 +457,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -459,6 +474,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.sample-apps-carthage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -474,6 +490,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.sample-apps-carthage";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -485,6 +502,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.sample-apps-carthageTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-apps-carthage.app/sample-apps-carthage";
 			};
 			name = Debug;
@@ -497,6 +515,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.sample-apps-carthageTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sample-apps-carthage.app/sample-apps-carthage";
 			};
 			name = Release;
@@ -508,6 +527,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.sample-apps-carthageUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "sample-apps-carthage";
 			};
 			name = Debug;
@@ -519,6 +539,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bitrise.sample-apps-carthageUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "sample-apps-carthage";
 			};
 			name = Release;
